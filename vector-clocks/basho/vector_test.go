@@ -2,7 +2,6 @@ package easy
 
 import (
 	"testing"
-	"time"
 )
 
 func assertEqual(t *testing.T, a interface{}, b interface{}) {
@@ -73,5 +72,4 @@ func Test_basho_story(t *testing.T) {
 	assertEqual(t, ben.value, "thursday")
 	assertEqual(t, cathy.value, "thursday")
 	assertEqual(t, dave.value, "thursday")
-
 }

@@ -19,6 +19,7 @@ type event struct {
 
 func (c *event) setVal(val interface{}) {
 	c.value = val
+	c.vectorMap[c.process]++
 }
 
 func (c *event) receive(d *event) {
