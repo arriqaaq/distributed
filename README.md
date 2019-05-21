@@ -4,5 +4,5 @@ Various distributed concepts codebase
 Reference
 ---------
 
-- http://basho.com/posts/technical/why-vector-clocks-are-easy/
+- https://riak.com/why-vector-clocks-are-hard/index.html
 - https://www.cs.rutgers.edu/~pxk/417/notes/clocks/index.html
